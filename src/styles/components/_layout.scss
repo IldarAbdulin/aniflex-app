@@ -1,0 +1,309 @@
+.layout {
+  background-color: #0e0a1a;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  color: #d9d9d9;
+  .css-1hfyor7-MuiPaginationItem-root {
+    color: #d0d0d0 !important;
+  }
+  hr {
+    background: #d9d9d9;
+    height: 2px;
+  }
+  .MuiSelect-select {
+    border: 1px solid #d9d9d9 !important;
+  }
+  .MuiSelect-icon {
+    color: #d0d0d0 !important;
+  }
+  .manga__filter-input {
+    border: 1px solid #d9d9d9;
+  }
+  a {
+    color: #d9d9d9;
+  }
+  .schedule-btn {
+    width: 410px;
+    cursor: pointer;
+    font-size: 18px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px 5px;
+    background: #0e0a1a;
+    transition: 0.3s;
+    &:hover {
+      background: #020103;
+    }
+  }
+  .manga-single__season {
+    display: flex;
+    flex-wrap: wrap;
+    a {
+      margin: 0 10px 10px 0;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 17px;
+      border: 1px solid;
+    }
+    a.active {
+      color: #0e0a1a;
+      background: #d0d0d0;
+    }
+  }
+  .manga__footer {
+    a {
+      letter-spacing: 1px;
+      transition: 0.2s all ease-in-out;
+      &:hover {
+        color: #cccccc;
+      }
+    }
+  }
+  .manga__filter-input {
+    button {
+      border-radius: 15px 0;
+      padding: 0 30px;
+      font-weight: 400;
+      font-size: 18px;
+      letter-spacing: 2px;
+      cursor: pointer;
+      border: 1px solid #d9d9d9;
+      color: #d9d9d9;
+      background: #0e0a1a;
+      transition: 0.2s;
+      &:hover {
+        background: #000000;
+        box-shadow: 1px 1px 20px 5px #02aaf82b;
+      }
+    }
+  }
+  input {
+    width: 300px;
+    padding: 20px 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #d9d9d9;
+    font-size: 16px;
+    &::placeholder {
+      color: #d0d0d07e;
+    }
+  }
+  .card-main {
+    &__links {
+      padding: 30px 0 0 0;
+      display: flex;
+      gap: 15px;
+      a {
+        padding: 5px 15px;
+        border: 1px solid;
+        border-radius: 5px;
+        font-size: 18px;
+        background: transparent;
+      }
+      a.active {
+        background: #d9d9d9;
+        color: #0e0a1a;
+        border: 1px solid #0e0a1a;
+      }
+    }
+  }
+  .manga {
+    .not-found-link {
+      cursor: pointer;
+      margin: 10px 0 20px 0;
+      padding: 5px 10px;
+      font-size: 17px;
+      color: #dbdbdb;
+      border: 1px solid #dbdbdb;
+      border-radius: 5px;
+      outline: none;
+      background: transparent;
+      transition: 0.2s;
+      &:hover {
+        box-shadow: 1px 1px 20px 5px #e4e4e417;
+      }
+    }
+  }
+  .card {
+    button {
+      cursor: pointer;
+      margin: 10px 0 20px 0;
+      padding: 5px 10px;
+      font-size: 17px;
+      color: #d9d9d9;
+      border: 1px solid #d9d9d9;
+      border-radius: 10px 0px;
+      outline: none;
+      background: #0e0a1a;
+      transition: 0.2s;
+      &:hover {
+        background: #020103;
+        box-shadow: 1px 1px 20px 5px #02aaf82b;
+      }
+    }
+  }
+}
+.layout.light {
+  background-color: #dbdbdb;
+  width: 100%;
+  height: 100%;
+  color: #232323;
+  .manga-single__season {
+    display: flex;
+    flex-wrap: wrap;
+    a {
+      margin: 0 10px 0 0;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 17px;
+      border: 1px solid;
+    }
+    a.active {
+      color: #d0d0d0;
+      background: #0e0a1a;
+    }
+  }
+  .manga {
+    .not-found-link {
+      cursor: pointer;
+      margin: 10px 0 20px 0;
+      padding: 5px 10px;
+      font-size: 17px;
+      color: #393939;
+      border: 1px solid #393939;
+      border-radius: 5px;
+      outline: none;
+      background: transparent;
+      transition: 0.2s;
+      &:hover {
+        box-shadow: 1px 1px 20px 5px #23232320;
+      }
+    }
+  }
+  hr {
+    background: #232323;
+    height: 3px;
+  }
+  a {
+    color: #232323;
+  }
+  .MuiSelect-select {
+    border: none !important;
+  }
+  .MuiSelect-icon {
+    color: #232323 !important;
+  }
+  .manga__filter-input {
+    border: 1px solid #232323;
+  }
+  input {
+    width: 300px;
+    padding: 20px 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #232323;
+    font-size: 16px;
+    &::placeholder {
+      color: #2323239b;
+    }
+  }
+  .css-1hfyor7-MuiPaginationItem-root {
+    color: #232323 !important;
+  }
+  .manga__filter-input {
+    button {
+      border-radius: 15px 0;
+      padding: 0 30px;
+      font-weight: 400;
+      font-size: 18px;
+      letter-spacing: 2px;
+      cursor: pointer;
+      border: 1px solid #0e0a1a;
+      color: #0e0a1a;
+      background: #d9d9d9;
+      transition: 0.2s;
+      &:hover {
+        background: #dedede;
+        box-shadow: 1px 1px 20px 5px #f8028520;
+      }
+    }
+  }
+  .schedule-btn {
+    width: 410px;
+    cursor: pointer;
+    font-size: 18px;
+    font-size: 18px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px 5px;
+    background: #d9d9d9;
+    transition: 0.3s;
+    &:hover {
+      background: #cbcbcb;
+    }
+    .manga__footer {
+      a {
+        color: #393939;
+        letter-spacing: 1px;
+        transition: 0.2s all ease-in-out;
+        &:hover {
+          color: #232323;
+        }
+      }
+    }
+  }
+  .card-main {
+    &__links {
+      padding: 30px 0 0 0;
+      display: flex;
+      gap: 15px;
+      a {
+        padding: 5px 15px;
+        border: 1px solid;
+        border-radius: 5px;
+        font-size: 18px;
+        background: transparent;
+      }
+      a.active {
+        background: #0e0a1a;
+        color: #d9d9d9;
+        border: 1px solid #0e0a1a;
+      }
+    }
+  }
+  .card {
+    button {
+      cursor: pointer;
+      margin: 10px 0 20px 0;
+      padding: 5px 10px;
+      font-size: 17px;
+      color: #393939;
+      border: 1px solid #393939;
+      border-radius: 5px;
+      outline: none;
+      background: #dbdbdb;
+      transition: 0.2s;
+      &:hover {
+        background: #dedede;
+        box-shadow: 1px 1px 20px 5px #f8028520;
+      }
+    }
+  }
+}
+@media (max-width: 480px) {
+  .layout,
+  .layout.light {
+    .manga__filter-input {
+      button {
+        display: none;
+      }
+    }
+  }
+}

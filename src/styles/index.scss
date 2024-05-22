@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import './variables.scss';
+@import './components/all.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.manga__main-h1 {
+  font-size: 26px;
+}
+.swiper-button-next {
+  position: absolute !important;
+  right: 0px !important;
+}
+.swiper-button-prev {
+  position: absolute !important;
+  left: 0px !important;
+}
+.swiper-button-next:after {
+  color: #ffffff !important;
+}
+.swiper-button-prev::after {
+  color: #ffffff !important;
+}
+@media (max-width: 450px) {
+  .manga__main-h1 {
+    font-size: 22px;
+  }
+}
