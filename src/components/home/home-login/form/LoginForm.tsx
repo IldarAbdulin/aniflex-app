@@ -23,11 +23,11 @@ export const LoginForm: React.FC = () => {
           setUser({
             email: user.email,
             id: user.uid,
-            token: user.accessToken,
+            token: user.refreshToken,
           })
         );
         Cookies.set('user', `${auth.currentUser?.email}`, { expires: 3 });
-        Cookies.set('token', user.accessToken, { expires: 3 });
+        Cookies.set('token', user.refreshToken, { expires: 3 });
         navigate('/main');
       });
     } catch (error) {
@@ -46,11 +46,11 @@ export const LoginForm: React.FC = () => {
           setUser({
             email: user.email,
             id: user.uid,
-            token: user.accessToken,
+            token: user.refreshToken,
           })
         );
         Cookies.set('user', `${auth.currentUser?.displayName}`, { expires: 3 });
-        Cookies.set('token', user.accessToken, { expires: 3 });
+        Cookies.set('token', user.refreshToken, { expires: 3 });
         navigate('/main');
       });
     } catch (error) {
